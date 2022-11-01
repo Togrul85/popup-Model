@@ -1,0 +1,53 @@
+.gallery img {
+  width: 100%;
+  height: 290px;
+}
+
+.slider .popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(72, 65, 65, 0.679);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.slider .popup .inner {
+  position: relative;
+  display: flex;
+}
+.slider .popup .biggestImg {
+  width: 78%;
+  position: relative;
+}
+.slider .popup .close-icons {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  color: wheat;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.slider img {
+  width: 1296px;
+  height: 500px;
+}
+
+.icons {
+  color: blue;
+  font-size: 60px;
+  cursor: pointer;
+  display: inline-block;
+}
+.icons .uploadInput {
+  display: none;
+}
+.icons img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
